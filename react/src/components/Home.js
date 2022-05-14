@@ -1,6 +1,7 @@
 import React, { useState } from "react";
+import ShowCounter from "./ShowCounter";
 
-const Home = () => {
+const Home = ({name}) => {
   const [val, setVal] = useState(0);
   const increment = () => {
     setVal(val + 1);
@@ -11,10 +12,7 @@ const Home = () => {
 
   return (
     <>
-      <p>{val}</p>
-      <button onClick={increment}> + </button>
-
-      <button onClick={decrement}> - </button>
+      <ShowCounter name={name} val={val} incr={increment} decr={decrement} />
     </>
   );
 };
