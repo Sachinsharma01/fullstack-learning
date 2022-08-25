@@ -61,23 +61,47 @@ input {
   position: absolute;
   right: 0;
   margin-right: 20px;
-  transition: all .7s ease-in-out;
+  transition: all 0.7s ease-in-out;
 }
 
 .btn:hover {
-    cursor: pointer;
-    width: 110px;
+  cursor: pointer;
+  width: 110px;
 }
 h6 {
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    color: white;
-    font-size: large;
-    margin-bottom: 10px;
-    margin-left: 100px;
-
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  color: white;
+  font-size: large;
+  margin-bottom: 10px;
+  margin-left: 100px;
 }
 a {
-    color: var(--button-color);
+  color: var(--button-color);
+}
+.imageHolder {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+.image {
+  border-right: 1px solid white;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image img {
+  margin: 10px;
+}
+
+.title {
+  display: flex;
+  align-items: start;
+  justify-content: left;
+  flex-direction: column;
 }
