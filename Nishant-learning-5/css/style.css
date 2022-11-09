@@ -1,0 +1,39 @@
+a {
+  color: red;
+  font-style: italic;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bolder;
+  text-decoration: none;
+}
+a:active {
+  color: blue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: oblique;
+  animation: example 2s infinite;
+}
+/* only applicable on links */
+a:visited {
+  color: purple;
+}
+ul {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+
+
+
+@keyframes example {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: green;
+  }
+}

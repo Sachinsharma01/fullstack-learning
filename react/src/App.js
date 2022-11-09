@@ -14,9 +14,9 @@ function App() {
   return (
     <autherName.Provider value={"sachin"}>
       <div className="App">
-        <NewHome name={name} />
+        {/* <NewHome name={name} />
         <Form />
-        <UseEffect />
+        <UseEffect /> */}
       </div>
     </autherName.Provider>
   );
